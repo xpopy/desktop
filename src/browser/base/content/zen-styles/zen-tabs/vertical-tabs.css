@@ -618,7 +618,8 @@
         box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 
         position: absolute;
-        padding: var(--zen-toolbox-padding);
+        padding-left: var(--zen-toolbox-padding);
+        padding-right: var(--zen-toolbox-padding);
         transition: 0 !important;
         /*animation: zen-vtabs-animation 0.3s ease-in-out;*/
         -moz-window-dragging: no-drag;
